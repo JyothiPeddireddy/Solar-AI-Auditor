@@ -10,8 +10,8 @@
 import streamlit as st
 import os
 import requests
-# from google import genai
-import google.generativeai as genai
+from google import genai
+# import google.generativeai as genai
 from PIL import Image
 from io import BytesIO
 # import matplotlib.pyplot as plt
@@ -29,7 +29,10 @@ import time
 # Gemini API Key (Ensure it is valid)
 # API_KEY = "AIzaSyCtT5BdNOl0iAi_g9vO6frRu-r2ihprTYo"  
 
-API_KEY = "AIzaSyDhtpctQsXO3cbbua2uz43a2aKBzJKOWf0"
+# API_KEY = "AIzaSyDhtpctQsXO3cbbua2uz43a2aKBzJKOWf0" 
+
+API_KEY = "AIzaSyCENSUImVutqxZuwEKRncDkeKNCjkBJI1k" 
+
 
 # Initialize Gemini Client
 client = genai.Client(api_key=API_KEY)
