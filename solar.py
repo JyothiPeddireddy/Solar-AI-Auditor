@@ -10,7 +10,8 @@
 import streamlit as st
 import os
 import requests
-from google import genai
+# from google import genai
+import google.generativeai as genai
 from PIL import Image
 from io import BytesIO
 # import matplotlib.pyplot as plt
