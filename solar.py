@@ -26,12 +26,9 @@ import time
 # 1. SETUP
 # ============================================================
 
-# Gemini API Key (Ensure it is valid)
-# API_KEY = "AIzaSyCtT5BdNOl0iAi_g9vO6frRu-r2ihprTYo"  
+# Gemini API Key (Ensure it is valid) 
 
-# API_KEY = "AIzaSyDhtpctQsXO3cbbua2uz43a2aKBzJKOWf0" 
-
-API_KEY = "AIzaSyCENSUImVutqxZuwEKRncDkeKNCjkBJI1k" 
+API_KEY = "AIzaSyBBde7P7DrLsvAODAwdiItGEU-GQnUA67k" 
 
 
 # Initialize Gemini Client
