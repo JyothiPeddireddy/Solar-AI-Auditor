@@ -28,8 +28,7 @@ import time
 
 # Gemini API Key (Ensure it is valid) 
 
-API_KEY = "AIzaSyBBde7P7DrLsvAODAwdiItGEU-GQnUA67k" 
-
+API_KEY = st.secrets["GEMINI_API_KEY"]
 
 # Initialize Gemini Client
 client = genai.Client(api_key=API_KEY)
